@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,600;1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,600;1,200;1,400&family=Frank+Ruhl+Libre:wght@400;500;700;900&display=swap');
+
+:root {
+    --primary-light: #ffffff;
+    --primary-dark: rgba(0, 0, 0, 0.6);
+    --primary-darker: rgba(0, 0, 0, 0.9);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, a, label, input, textarea {
+    font: normal 500 14px/24px 'Fira Sans', sans-serif;
+    color: var(--primary-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: normal 900 45px/100% 'Frank Ruhl Libre', sans-serif;
+    letter-spacing: -0.02em;
+    color: var(--primary-light);
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 200px 0 200px;
+    background: #EBEBEB;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    color: var(--primary-darker);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: var(--primary-light);
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    padding: 17px 53px 17px 53px;
+}
+
+/*====================MENU=========================*/
+
+.menu {
+    width: 100%;
+    height: 68px;
+    background: var(--primary-light);
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    list-style: none; 
+}
+
+.menu__item {
+    padding: 0px 43px 0px 43px;
+}
+
+.menu a {
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: -0.02em;
+    opacity: 0.4;
+}
+
+#highlight-current-page {
+    opacity: 1;
+}

@@ -1,0 +1,142 @@
+@media (max-width: 1400px) {
+    .page-wrapper{
+        padding: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    /*====================HEADER=========================*/
+
+    .top-container {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .top-container__inner-left {
+        height: 440px;
+    }
+
+    .top-container__inner-right {
+        display: flex;
+    }
+
+    .top-container__inner-left__paragraph {
+        padding: 54px 194px 43px 0;
+    }
+
+    /*=====================MAIN==========================*/
+
+    .main-container-top {
+        padding: 0 34px 0px 34px;
+    }
+
+    .main-top__paragraph {
+        padding: 0 0px 33px 66px;
+
+    }
+
+    .inner-container-btn {
+        margin-left: 34px;
+    }
+
+    /*==============GRID LAYOUT SECTION==================*/
+
+    .card-wrapper {
+        padding: 0 15px 0 15px;
+    }
+
+    .card-container__mid{
+        margin: 0 15px 0 15px;
+    }
+
+    .grid-section__box {
+        height: 270px;
+    }
+}
+
+@media (max-width: 760px) {
+
+    /*====================HEADER=========================*/
+
+    .top-container__inner-left {
+        height: 750px;
+        background-position: 50% 102%;
+        background-size: 350px;
+        padding: 60px 34px 0 34px;
+    }
+
+    .top-container__inner-left__paragraph {
+        padding: 54px 0 43px 0;
+    }
+
+    .top-container__inner-right {
+        flex-direction: column;
+    }
+
+    .top-container__inner-wrapper {
+        height: 300px;
+    }
+
+    /*=====================MENU==========================*/
+
+    .menu {
+        display: none;
+    }
+
+    /*=====================MAIN==========================*/
+
+    .main-container-top {
+        height: auto;
+    }
+
+    .main-container-top__inner-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-container-top__inner-container-left, .main-top__paragraph {
+        width: 100%;
+    }    
+
+    .main-top__btn {
+        display: none;
+    }
+
+    .main-top__paragraph {
+        padding: 0;
+    }
+
+    .card-wrapper {
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    .card-container__mid {
+        margin: 50px 0 50px 0;
+    }
+
+    .main-container-bottom {
+        height: 570px;
+        padding: 0 34px;
+    }
+
+    .main-container-bottom__heading {
+        margin: 0 0 40px 0;
+    }
+
+    /*==============GRID LAYOUT SECTION==================*/
+
+    .grid-section {
+        grid-template-columns: 1fr;
+    }
+
+}    
+
+@media (max-width: 382px) {
+    .btn {
+        font-size: 11px;
+    }
+}
